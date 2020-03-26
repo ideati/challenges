@@ -1,5 +1,5 @@
 # Challenges
-Short tasks to acquire knowledge, increase speed or improve capabilities for our services or community.
+Short tasks to acquire knowledge, increase speed or improve capabilities for our services or just for the sake of strengthen community bonds.
 
 ## Algorithms
 Generic algorithm design and implementation
