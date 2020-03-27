@@ -5,7 +5,7 @@ Short tasks to acquire knowledge, increase speed or improve capabilities for our
 Generic algorithm design and implementation
 
 ## Data
-Database related quests, either SQL or NoSQL.
+Data manipulation, conversion, storage, and database related quests, either SQL or NoSQL.
 
 ## Machine learning
 Neural networks, linear and logistic regression, unsupervised learning, classification, recommender systems and other artificial intelligence related quests.
