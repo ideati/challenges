@@ -8,6 +8,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 
 ## Restrictions
 - The entry shall work on any spanish text with UTF-8 encoding. A long book in the Public Domain is available: [Don Quijote de la Mancha](http://www.gutenberg.org/cache/epub/2000/pg2000.txt) in order to test the suitability of the algorithm.
+- The list must be case insensitive.
 - Discard articles, conjunctions and propositions from the list.
 - Discard numeric entities or words mixed with numbers.
 - Use any programming language and any free library and/or tool.
