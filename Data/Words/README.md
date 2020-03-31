@@ -17,7 +17,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 - There is a penalty of 1 ms for each kb needed to execute the entry. This puts in disadvantage the interpreted languages with respect to native compiled solutions. For instance: a shell script will carry the size of the minimal shell required to run it.
 - The entry that obtain the right solution faster than the reference implementation will receive a prize.
 
-## Reference
+## Results
 The current performance of the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
 ```sh
 $ time ./rds pg2000.txt
