@@ -3,15 +3,15 @@
 ## Objective
 Obtain the top 10 words in a long text (book), sorted by the number of appearances. The faster implementation wins.
 
-Entry candidates are any valid program, compiled or interpreted that targets Linux on a Raspberry Pi 3, as the platform of choice to profile the solution. Use any programming language, library or tool.
+A valid entry is any program, compiled or interpreted and able to run on a Raspberry Pi 3, as the platform of choice to profile the solution. Use any programming language, library or tool. You don't need to have a RPi, it will be used just to determine the speed with respect to the reference implementation and assign the prize. 
 
 ## License
 Each author retains the rights to his/her code, but each entry shall have a OSI approved license in order to be considered for participation.
 
 ## Conditions
-- The entry shall work on any text with UTF-8 encoding. As an example, a long book in the Public Domain is available: [Don Quijote de la Mancha](http://www.gutenberg.org/cache/epub/2000/pg2000.txt) (Spanish, book 2000, Project Gutenberg) in order to test the suitability of the algorithm.
-- Spanish was choosen to verify the correctness of the implementation beyond ASCII range. The search is case insensitive.
-- Discard articles, conjunctions and propositions from the list. You don't need to know spanish, discard_es.txt is the list of words to be discarded.
+- The entry shall work on any text with UTF-8 encoding. As an example, a long book in the Public Domain is available: [Don Quijote de la Mancha](http://www.gutenberg.org/cache/epub/2000/pg2000.txt) (Spanish, book 2000, Project Gutenberg) in order to test the suitability of the algorithm. This book has 23.591 different words for a total of 384.324 words.
+- Spanish was choosen to verify the correctness of the implementation beyond the ASCII range. The search is case insensitive.
+- Discard articles, conjunctions and propositions from the list. You don't need to know spanish to do it. There is a list of the words to be discarded here: [discard_es.txt](https://github.com/ideati/challenges/blob/master/Data/Words/discard_es.txt).
 - Discard numeric entities or words mixed with numbers.
 - Each entry shall be produced directly from source. Any optimization is permitted but executable compression is not allowed.
 - There is a penalty of 1 ms for each kb needed to execute the entry. This puts in disadvantage the interpreted languages with respect to native compiled solutions. For instance: a shell script will carry the size of the minimal shell required to run it.
