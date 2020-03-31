@@ -36,5 +36,6 @@ real    0m10,645s
 user    0m10,558s
 sys     0m0,040s
 ```
-The penalty is: 1027 kb -> 1.027 s
-Total performance for the reference implementation: 11.585 s
+The penalty is: 1027 kb -> 1.027 s.
+
+Total performance for the reference implementation: 11.585 seconds (This is the mark to beat)
