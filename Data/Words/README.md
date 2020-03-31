@@ -21,16 +21,16 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 The current time for the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
 ```sh
 $ time ./rds pg2000.txt
-01.  "no" 6345
-02.  "se" 4691
-03.  "su" 3352
-04.  "don" 2652
-05.  "me" 2345
-06.  "como" 2264
-07.  "quijote" 2180
-08.  "sancho" 2148
-09.  "es" 2142
-10.  "yo" 2077
+0.  "no" 6345
+1.  "se" 4691
+2.  "su" 3352
+3.  "don" 2652
+4.  "me" 2345
+5.  "quijote" 2180
+6.  "sancho" 2148
+7.  "es" 2142
+8.  "yo" 2077
+9.  "más" 2044
 
 real    0m10,645s
 user    0m10,558s
