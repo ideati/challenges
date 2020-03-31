@@ -18,7 +18,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 - The entry that obtain the right solution faster than the reference implementation will receive a prize.
 
 ## Reference
-The current time for the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
+The current performance of the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
 ```sh
 $ time ./rds pg2000.txt
 0.  "no" 6345
