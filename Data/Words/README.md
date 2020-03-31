@@ -13,7 +13,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 - Spanish was choosen to verify the correctness of the implementation beyond the ASCII range. The search is case insensitive.
 - Discard articles, conjunctions and propositions from the list. You don't need to know spanish to do it. There is a list of the words to be discarded here: [discard_es.txt](https://github.com/ideati/challenges/blob/master/Data/Words/discard_es.txt).
 - Discard numeric entities or words mixed with numbers.
-- The source code of each participant entry shall be pushed to this repository and tested in a RPi 3.
+- The source code of each participant entry shall be pushed to this repository and tested in a RPi 3 (Headless, with nothing attached, just the memory card).
 - There is a penalty of 1 ms for each kb needed to execute the entry. This puts in disadvantage the interpreted languages with respect to native compiled solutions. For instance: a shell script will carry the size of the minimal shell required to run it.
 - The entry that obtain the right solution faster than the reference implementation will receive a prize.
 
