@@ -8,7 +8,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 
 ## Restrictions
 - The entry shall work on any text with UTF-8 encoding. A long book in the Public Domain is available: [Don Quijote de la Mancha](http://www.gutenberg.org/cache/epub/2000/pg2000.txt) (Spanish, book 2000, Project Gutenberg) in order to test the suitability of the algorithm.
-- The list must be case insensitive.
+- Spanish was choosen to verify the correctness of the implementation beyond ASCII range. The search is case insensitive.
 - Discard articles, conjunctions and propositions from the list.
 - Discard numeric entities or words mixed with numbers.
 - Use any programming language and any free library and/or tool.
@@ -21,19 +21,18 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 The current time for the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
 ```sh
 $ time ./rds pg2000.txt
- 1. "que" 20628
- 2. "de" 18217
- 3. "y" 18189
- 4. "la" 10363
- 5. "a" 9882
- 6. "en" 8242
- 7. "el" 8210
- 8. "no" 6345
- 9. "los" 4748
-10. "se" 4691
+01.  "no" 6345
+02.  "se" 4691
+03.  "su" 3352
+04.  "don" 2652
+05.  "me" 2345
+06.  "como" 2264
+07.  "quijote" 2180
+08.  "sancho" 2148
+09.  "es" 2142
+10.  "yo" 2077
 
 real    0m10,645s
 user    0m10,558s
 sys     0m0,040s
 ```
-
