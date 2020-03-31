@@ -3,7 +3,7 @@
 ## Objective
 Obtain the top 10 words in a long text (book), sorted by the number of appearances. The faster implementation wins.
 
-A valid entry is any program, compiled or interpreted and able to run on a Raspberry Pi 3, as the platform of choice to profile the solution. Use any programming language, library or tool. You don't need to have a RPi, it will be used just to determine the speed with respect to the reference implementation and assign the prize. 
+A valid entry is any program, compiled or interpreted and able to run on a [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/), as the platform of choice to profile the solution. Use any programming language, library or tool. You don't need to have a RPi, it will be used just to determine the speed with respect to the reference implementation and assign the prize. 
 
 ## License
 Each author retains the rights to his/her code, but each entry shall have a OSI approved license in order to be considered for participation.
@@ -13,7 +13,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 - Spanish was choosen to verify the correctness of the implementation beyond the ASCII range. The search is case insensitive.
 - Discard articles, conjunctions and propositions from the list. You don't need to know spanish to do it. There is a list of the words to be discarded here: [discard_es.txt](https://github.com/ideati/challenges/blob/master/Data/Words/discard_es.txt).
 - Discard numeric entities or words mixed with numbers.
-- Each entry shall be produced directly from source. Any optimization is permitted but executable compression is not allowed.
+- The source code of each participant entry shall be pushed to this repository and tested in a RPi 3.
 - There is a penalty of 1 ms for each kb needed to execute the entry. This puts in disadvantage the interpreted languages with respect to native compiled solutions. For instance: a shell script will carry the size of the minimal shell required to run it.
 - The entry that obtain the right solution faster than the reference implementation will receive a prize.
 
