@@ -8,7 +8,7 @@ The consistent heuristic is an estimation of the magnitude that is being optimiz
 |H(x,G)-H(y,G)| <= D(x,y) where x and y are two different nodes and G is the goal. H is the heuristic and D is the magnitude
 
 ## Objective
-Implement the A* algorithm to obtain the shortest path in the graph defined by map.json. The simpler implementation wins.
+Implement the A* algorithm to obtain the shortest path from "Pasto" to "Santa Marta" in the graph defined by map.json. The simpler implementation wins.
 
 A valid entry is any program, compiled or interpreted and able to run on a Raspberry Pi 3, as the platform of choice to profile the solution. Use any programming language, library or tool. You don't need to have a RPi, it will be used just to determine the speed with respect to the reference implementation and assign the prize.
 
