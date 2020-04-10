@@ -1,7 +1,7 @@
 # A*
-This search algorithm is at the basis of many artificial intelligence solutions. It's the finder of the optimal path and it consist in a branch and bound routine plus a list of extended paths plus a consistent heuristic.
+This search algorithm is at the basis of many applications, specially map navigation and games. It's the finder of the optimal path and it consists in a branch and bound routine plus a list of extended paths plus a consistent heuristic.
 
-The scope of the extended list is to avoid repeating already extended paths
+The scope of the extended list is to avoid repeating already extended paths.
 
 The consistent heuristic is an estimation of the magnitude that is being optimized and that satisfies the consistency rule:
 
