@@ -10,6 +10,8 @@ The consistent heuristic is an estimation of the magnitude that is being optimiz
 ## Objective
 Implement the A* algorithm to obtain the shortest path in the graph defined by map.json. The simpler implementation wins.
 
+A valid entry is any program, compiled or interpreted and able to run on a Raspberry Pi 3, as the platform of choice to profile the solution. Use any programming language, library or tool. You don't need to have a RPi, it will be used just to determine the speed with respect to the reference implementation and assign the prize.
+
 ## License
 Each author retains the rights to his/her code, but each entry shall have a OSI approved license in order to be considered for participation.
 
