@@ -18,4 +18,4 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 - Choose any programming language, library and/or tool.
 - The resulting program can be compiled or interpreted.
 - The program shall get the json file, process it and produce the shortest path as a list of nodes.
-- The entry that obtain the right solution allocating less memory than the reference solution will receive a prize.
+- The entry that obtain the right solution faster than the reference implementation will receive a prize. There is a penalty of 1 ms per each kb needed to execute the entry (binaries + memory allocated at runtime).
