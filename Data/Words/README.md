@@ -20,9 +20,9 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 ## Results
 The current performance of the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
 ```sh
-$ time ./rds pg2000.txt
+$ time ./wordc pg2000.txt ../discard_es.txt
 0.  "no" 6345
-1.  "se" 4691
+1.  "se" 4690
 2.  "su" 3352
 3.  "don" 2652
 4.  "me" 2345
@@ -32,10 +32,13 @@ $ time ./rds pg2000.txt
 8.  "yo" 2077
 9.  "más" 2044
 
-real    0m10,645s
-user    0m10,558s
-sys     0m0,040s
-```
-The penalty is: 1027 kb -> 1.027 s.
+real    0m0,308s
+user    0m0,556s
+sys     0m0,031s
 
-Total performance for the reference implementation: 11.585 seconds (This is the mark to beat)
+$ ls -Al wordc
+-rwxr-xr-x 1 jorge jorge 20296 abr 12 03:31 wordc
+```
+The penalty is: 20.2 kb -> 0.020 s.
+
+Total performance for the reference implementation: 0.57 seconds (This is the mark to beat)
