@@ -39,6 +39,6 @@ sys     0m0,031s
 $ ls -Al wordc
 -rwxr-xr-x 1 jorge jorge 20296 abr 12 03:31 wordc
 ```
-The penalty is: 20.2 kb -> 0.020 s.
+The penalty is: 20.3 kb -> 0.020 s.
 
-Total performance for the reference implementation: 0.57 seconds (This is the mark to beat)
+Total performance for the reference implementation: 0.576 seconds (This is the mark to beat)
