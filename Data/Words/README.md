@@ -20,6 +20,10 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 ## Results
 The current performance of the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
 ```sh
+$ ./wordc
+Word counter v.0.0.1
+Use: ./wordc filename.txt [exclusions.txt]
+
 $ time ./wordc pg2000.txt ../discard_es.txt
 0.  "no" 6345
 1.  "se" 4690
@@ -41,4 +45,4 @@ $ ls -Al wordc
 ```
 The penalty is: 20.3 kb -> 0.020 s.
 
-Total performance for the reference implementation: 0.576 seconds (This is the mark to beat)
+Total performance for the reference implementation: 0.576 seconds (This is the mark to beat to win the prize)
