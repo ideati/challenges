@@ -9,7 +9,7 @@ A valid entry is any program, compiled or interpreted and able to run on a [Rasp
 Each author retains the rights to his/her code, but each entry shall have a OSI approved license in order to be considered for participation.
 
 ## Conditions
-- The entry shall work on any text with UTF-8 encoding. As an example, a long book in the Public Domain is available: [Don Quijote de la Mancha](http://www.gutenberg.org/cache/epub/2000/pg2000.txt) (Spanish, book 2000, Project Gutenberg) in order to test the suitability of the algorithm. This book has 23.591 different words for a total of 384.324 words. By the way: it's such a wonderful book!
+- The entry shall work on any text with UTF-8 encoding. As an example, a long book in the Public Domain is available: [Don Quijote de la Mancha](http://www.gutenberg.org/cache/epub/2000/pg2000.txt) (Spanish, Project Gutenberg Book No.2000) in order to test the suitability of the algorithm. This book has 23.591 different words for a total of 384.324 words. By the way: it's such a wonderful book!
 - Spanish was choosen to verify the correctness of the implementation beyond the ASCII range. The search is case insensitive.
 - Discard articles, conjunctions and propositions from the list. You don't need to know spanish to do it. There is a list of the words to be discarded here: [discard_es.txt](https://github.com/ideati/challenges/blob/master/Data/Words/discard_es.txt).
 - Discard numeric entities or words mixed with numbers.
