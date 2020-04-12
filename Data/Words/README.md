@@ -45,4 +45,6 @@ $ ls -Al wordc
 ```
 The penalty is: 20.3 kb -> 0.020 s.
 
-Total performance for the reference implementation: 0.576 seconds (This is the mark to beat to win the prize)
+Total performance for the reference implementation: 0.308 - 0.031 + 0.020 = 0.297 seconds (This is the mark to beat to win the prize)
+
+Note that the user time is greater than the real time. This happens when a program is making use of parallel execution in the RPi 3 processor's four cores. The real time is the actual elapsed time (as by stopwatch).
