@@ -15,7 +15,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 - Discard numeric entities or words mixed with numbers.
 - The source code of each participant entry shall be pushed to this repository and tested in a RPi 3 (Headless, with nothing attached, just the memory card).
 - There is a penalty of 1 ms for each kb needed to execute the entry. This puts in disadvantage the interpreted languages with respect to native compiled solutions. For instance: a shell script will carry the size of the minimal shell required to run it.
-- The entry that obtain the right solution faster than the reference implementation will receive a prize. The reference implementation will be revealed once the contest ends.
+- The entry that obtain the right solution faster than the reference implementation will receive a [prize](https://github.com/ideati/challenges/blob/master/PRIZE.md). The reference implementation will be revealed once the contest ends.
 
 ## Results
 The current performance of the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
@@ -45,6 +45,6 @@ $ ls -Al wordc
 ```
 The penalty is: 20.3 kb -> 0.020 s.
 
-Total performance for the reference implementation: 0.308 - 0.031 + 0.020 = 0.297 seconds (This is the mark to beat to win the prize)
+Total performance for the reference implementation: 0.308 - 0.031 + 0.020 = 0.297 seconds (This is the mark to beat to win the [prize](https://github.com/ideati/challenges/blob/master/PRIZE.md))
 
 Note that the user time is greater than the real time. This happens when a program is making use of parallel execution. There are 4 cores in the Raspberri Pi. The actual elapsed time, as taken with a stopwatch is the so called real.
