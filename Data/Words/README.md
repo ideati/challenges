@@ -16,7 +16,7 @@ Each author retains the rights to his/her code, but each entry shall have a OSI 
 - The program must receive two parameters: the book as a text file and the list of discarded words as given here.
 - Discard also numeric entities or words mixed with numbers.
 - In order to participate, please do a pull request to this repository. We will test it in a headless RPi 3 connected via ssh and working exclusively for the contest. We'll take the best time of five succesive runs.
-- There is a penalty of 1 ms for each kb needed to execute the entry. This is disadvantageous for interpreted languages but in reality, we need to deploy solutions with as less overhead as possible. For instance: a shell script will carry the size of the minimal shell needed to run the script.
+- There is a penalty of 1 ms for each kb needed to execute the entry. This put interpreted languages at disadvantage. For instance: a shell script will carry the size of the minimal shell needed to run the script.
 
 ## Results
 The current performance of the reference implementation in a Raspberry Pi 3 Model B Rev 1.2 is:
