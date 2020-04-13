@@ -50,4 +50,4 @@ Time spent by the system is 0.020s.
 
 Total performance for the reference implementation: 0.220 - 0.020 + 0.020 = 0.220 seconds (This is the mark to beat to win the [prize](https://github.com/ideati/challenges/blob/master/PRIZE.md))
 
-Note that the user time is greater than the real time. This happens when a program is making use of parallel execution. There are 4 cores in the Raspberri Pi. The actual elapsed time, as if taken by a stopwatch is the so called real.
+Note that the user time is greater than the real time. This happens when a program is making use of parallel execution; there are 4 cores in the Raspberri Pi. The actual elapsed time, as if taken by a stopwatch, is the one labeled "real".
