@@ -5,6 +5,9 @@ Obtain the top 10 words in a long text (book), sorted by the number of appearanc
 
 A valid entry is any program, compiled or interpreted and able to run on a [Raspberry Pi 3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/), as the platform of choice to profile the solution. Use any programming language, library or tool. The code should be portable, at least between x86_64 and ARM platforms. You don't need to have a RPi, it will be used just to determine the speed with respect to the reference implementation. The entry that obtain the right solution faster than the reference implementation will receive a [prize](https://github.com/ideati/challenges/blob/master/PRIZE.md). The reference implementation will be revealed once the contest ends. 
 
+## Deadline
+This challenge goes up to june 30, 2020. The final results will be published here on saturday, july 18, 2020.
+
 ## License
 Each author retains the rights to his/her code, but each entry shall have a OSI approved license in order to be considered for participation.
 
