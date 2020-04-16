@@ -1,6 +1,10 @@
 # Challenges
 Short tasks to acquire knowledge, increase speed or improve capabilities for our services or just for the sake of strengthening community bonds.
 
+The first challenge is officially open: [Words](https://github.com/ideati/challenges/blob/master/Data/Words)
+
+Entries accepted until june 30, 2020.
+
 ## Algorithms
 Generic algorithm design and implementation
 
