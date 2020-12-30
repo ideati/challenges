@@ -1,7 +1,7 @@
 # Family tree
 
 ## Objective
-Obtain the graph representation of a family tree for the list in [persons.json](https://github.com/ideati/challenges/blob/master/frontend/persons.json).
+Obtain the graph representation of a family tree for the list in [persons.json](https://github.com/ideati/challenges/blob/master/frontend/tree/persons.json).
 
 A valid entry is a single page web application written in HTML5, CSS3 and plain Javascript (no frameworks nor libraries are allowed). The page must present the graph as SVG boxes or paths linked by lines.
 
