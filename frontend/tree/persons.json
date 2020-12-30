@@ -1,0 +1,15 @@
+[
+	{"name":"Bart", "father": "Homer", "mother": "Marge"},
+	{"name":"Lisa", "father": "Homer", "mother": "Marge"},
+	{"name":"Maggie", "father": "Homer", "mother": "Marge"},
+	{"name":"Homer", "father": "Abraham", "mother": "Mona"},
+	{"name":"Herb", "father": "Abraham", "mother": "Mona"},
+	{"name":"Marge", "father": "Clancy", "mother": "Jackie"},
+	{"name":"Patty", "father": "Clancy", "mother": "Jackie"},
+	{"name":"Selma", "father": "Clancy", "mother": "Jackie"},
+	{"name":"Ling", "father": "", "mother": "Selma"},
+	{"name":"Nediana Flanders", "father": "Nedsel Flanders", "mother": "Agnes Turnipseed"},
+	{"name":"Ned Flanders", "father": "Nedsel Flanders", "mother": "Agnes Turnipseed"},
+	{"name":"Rodd", "father": "Ned Flanders", "mother": "Maude"},
+	{"name":"Todd", "father": "Ned Flanders", "mother": "Maude"}
+]
